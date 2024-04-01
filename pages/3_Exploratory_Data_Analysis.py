@@ -15,8 +15,8 @@ def main():
 
     conn = snow.connect(
         user="ANALYTICS_USER_READER",
-        password="SnowflakeReader2024",
-        account="QBKKKTN-FV54599",
+        password="***",
+        account="***",
         warehouse="COMPUTE_WH",
         database="ADVENTUREWORKS_DEMO",
         schema="CONSUMPTION"

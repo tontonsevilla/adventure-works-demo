@@ -52,10 +52,10 @@ def saveSalesTransaction(purchases, customer:Person):
         cursor.execute(sql, params)
 
 def getConn():
-    server = 'adventureworks-svr.database.windows.net'
+    server = '***'
     database = 'AdventureWorks'
-    username = 'adm'
-    password = 'P@ssw0rd'
+    username = '***'
+    password = '***'
     driver= '{ODBC Driver 17 for SQL Server}'
 
     conn = pyodbc.connect('DRIVER='+driver+';SERVER=tcp:'+server+';PORT=1433;DATABASE='+database+';UID='+username+';PWD='+ password)
